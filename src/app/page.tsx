@@ -5,7 +5,7 @@ import { FaBuilding } from "react-icons/fa6";
 import { IoBagRemove } from "react-icons/io5";
 
 import PricingPage from "./components/pricingcard";
-import Footer from "./components/footer";
+
 
 
 export default function Home() {
