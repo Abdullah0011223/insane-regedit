@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <div className="bg-blue-200 rounded-b-full p-8">
         <div className="text-gray-800 text-center text-7xl font-mono font-bold">
-          <h1>Improve Your</h1>
+          <h1>Improve Yours</h1>
           <h1>Performance using</h1>
           <h1 className="text-blue-500">INSANE Optimization</h1>
           <h1 className="text-blue-500">Tools</h1>
