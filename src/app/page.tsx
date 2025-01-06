@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineVerified } from "react-icons/md";
+import { FaBuilding } from "react-icons/fa6";
+import { IoBagRemove } from "react-icons/io5";
+
+import PricingPage from "./components/pricingcard";
+
 
 export default function Home() {
   return (
@@ -84,13 +89,38 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-28">
-        <h1 className="font-bold ml-6 text-4xl text-gray-800">
-          Help You Find The Best <br /> Settings For Your Game
-        </h1>
-        <MdOutlineVerified className="text-5xl text-gray-800 mt-20 ml-6" />
-        <h1 className="ml-24 font-bold text-2xl">Trusted and Accurate</h1>
+      <div className="relative">
+        <div className="absolute inset-0 bg-[url('/images/circle.png')]  bg-right bg-[length:20%] opacity-5"></div>
+        <div className="relative z-10">
+
+          <h1 className="font-bold ml-6 text-4xl text-gray-800">
+            Help You Find The Best <br /> Settings For Your Game
+          </h1>
+
+          <div className="flex items-center mt-20 ml-6">
+            <MdOutlineVerified className="text-5xl text-white bg-blue-500 rounded-md" />
+            <h1 className="ml-6 font-bold text-2xl">Trusted and Accurate</h1>
+          </div>
+          <h1 className="ml-[95px] text-gray-500 mt-4">Use provide accurate settings for all devices which <br />reduces any types of bugs</h1>
+
+          <div className="flex items-center mt-10 ml-6">
+            <FaBuilding className="text-5xl text-white bg-blue-500 px-3 rounded-md" />
+            <h1 className="ml-6 font-bold text-2xl">Used By Top Players</h1>
+          </div>
+          <h1 className="ml-[95px] text-gray-500 mt-4">Many experienced and professional players uses our tool<br /> to improve their performance</h1>
+
+          <div className="flex items-center mt-10 ml-6">
+            <IoBagRemove className="text-5xl text-white bg-blue-500 px-3 rounded-md" />
+            <h1 className="ml-6 font-bold text-2xl">Various Features</h1>
+          </div>
+          <h1 className="ml-[95px] text-gray-500 mt-4">We provide services from optimizing device to improving <br />in-game performance</h1>
+
+        </div>
       </div>
+<h1 className="text-center mt-10 text-blue-700 font-extrabold font-mono text-2xl">OUR PRICING</h1>
+<h1 className="text-center mt-5 text-black font-extrabold font-mono text-4xl">Choose The Plans That Suits You!</h1>
+<PricingPage />
     </div>
   );
 }
+
