@@ -11,41 +11,41 @@ interface Plan {
 
 const plans: Plan[] = [
     {
-        title: "PC OPTIMIZER Superme",
+        title: "Basic Panel",
         price: "$20",
         period: "Lifetime",
         features: [
-            "Basic PC Optimization",
-            "System Health Check",
-            "Scheduled Cleanup",
-            "Hotkey Setup",
-            "Custom Performance Tuning"
+            "Aimbot Ai Head",
+            "Chams Menu",
+            "Full safe 100%",
+            "Antibanned / Antiblacklist",
+            "For Main Account"
         ],
         isPopular: false
     },
     {
-        title: "GAME OPTIMIZER Essential",
+        title: "External Panel",
         price: "$30",
         period: "Lifetime",
         features: [
-            "Advanced Game Settings",
-            "Performance Enhancements",
-            "Game-Specific Tuning",
-            "PC Cleaner",
-            "Real-Time Optimization"
+            "Aimbot++ / Aimbot Ai",
+            "Esp Line / Chams Menu",
+            "Awm scope / Fast switch",
+            "Antibanned / Antiblacklist",
+            "For Mian Account"
         ],
         isPopular: true
     },
     {
-        title: "PRO GAMER SUITE Streamer",
+        title: "Streamer Panel",
         price: "$50",
         period: "Lifetime",
         features: [
-            "Ultimate Game Settings",
-            "Improved Sensitivity Profiles",
-            "Smooth And Lag-Free Gameplay",
+            "Aimbot++/Aimbot Ai Head / Aimbot Ai drag",
+            "All types of Chams Locations",
+            "Awm scope / Fast switch / M82b Switch",
             "Mobile Control Integration",
-            "Advanced System ",
+            "Full Safe and Secure for Main Account",
             
         ],
         isPopular: false
