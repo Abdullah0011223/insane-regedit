@@ -42,54 +42,55 @@ export default function Home() {
       </h1>
       <h1 className="text-5xl font-thin font-mono ml-6 mt-5">Things We Do For You</h1>
       <h1 className="mt-6 ml-6 text-gray-600">
-        Pc is packed with high end spec but not performing well on
+        PC&#39;s packed with high end spec but not performing well on
       </h1>
       <h1 className="ml-6 text-gray-600">your favourite games? We&#39;ve got you.</h1>
-      <Link href = "/">
-      <button className="ml-6 bg-blue-500 py-3 px-7 rounded-l-full rounded-r-full mt-7 text-white hover:bg-blue-950">
-        Get Started Now
-      </button>
+      <Link href="/">
+        <button className="ml-6 bg-blue-500 py-3 px-7 rounded-l-full rounded-r-full mt-7 text-white hover:bg-blue-950">
+          Get Started Now
+        </button>
       </Link>
       <div className="relative flex justify-around items-center p-10">
-  {/* First Column */}
-  <div className="relative">
-    <h1 className="text-gray-200 font-bold text-[250px] text-left ml-20 z-0">1</h1>
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-      <h2 className="text-black font-bold text-2xl whitespace-nowrap">Device Optimization</h2>
-      <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
-        Maximize your PC's potential by eliminating unnecessary background processes and optimizing system resources.
-      </p>
-    </div>
-  </div>
+        {/* First Column */}
+        <div className="relative">
+          <h1 className="text-gray-200 font-bold text-[250px] text-left ml-20 z-0">1</h1>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
+            <h2 className="text-black font-bold text-2xl whitespace-nowrap">Device Optimization</h2>
+            <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
+              Maximize your PC&#39;s potential by eliminating unnecessary background processes and optimizing system resources.
+            </p>
+          </div>
+        </div>
 
-  {/* Second Column */}
-  <div className="relative">
-    <h1 className="text-gray-200 font-bold text-[250px] text-center z-0">2</h1>
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-      <h2 className="text-black font-bold text-2xl whitespace-nowrap">Game Optimization</h2>
-      <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
-        Tailor game settings specifically to your hardware capabilities, achieving the perfect balance between performance and visual quality.
-      </p>
-    </div>
-  </div>
+        {/* Second Column */}
+        <div className="relative">
+          <h1 className="text-gray-200 font-bold text-[250px] text-center z-0">2</h1>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
+            <h2 className="text-black font-bold text-2xl whitespace-nowrap">Game Optimization</h2>
+            <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
+              Tailor game settings specifically to your hardware capabilities, achieving the perfect balance between performance and visual quality.
+            </p>
+          </div>
+        </div>
 
-  {/* Third Column */}
-  <div className="relative">
-    <h1 className="text-gray-200 font-bold text-[250px] text-right mr-20 z-0">3</h1>
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-      <h2 className="text-black font-bold text-2xl whitespace-nowrap">Game Performance <br />Improvement</h2>
-      <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
-        Utilize custom settings to push your system beyond its limits, unlocking hidden potential for enhanced frame rates and responsiveness.
-      </p>
+        {/* Third Column */}
+        <div className="relative">
+          <h1 className="text-gray-200 font-bold text-[250px] text-right mr-20 z-0">3</h1>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
+            <h2 className="text-black font-bold text-2xl whitespace-nowrap">Game Performance <br />Improvement</h2>
+            <p className="text-gray-600 mt-2 text-sm max-w-[200px]">
+              Utilize custom settings to push your system beyond its limits, unlocking hidden potential for enhanced frame rates and responsiveness.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-28">
+        <h1 className="font-bold ml-6 text-4xl text-gray-800">
+          Help You Find The Best <br /> Settings For Your Game
+        </h1>
+        <MdOutlineVerified className="text-5xl text-gray-800 mt-20 ml-6" />
+        <h1 className="ml-24 font-bold text-2xl">Trusted and Accurate</h1>
+      </div>
     </div>
-  </div>
- </div>
- <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-28">
-  <h1 className="font-bold ml-6 text-4xl text-gray-800">
-    Help You Find The Best <br /> Settings For Your Game
-  </h1>
-  <MdOutlineVerified className="text-5xl text-gray-800 mt-20 ml-6"/><h1 className="ml-24 font-bold text-2xl">Trusted and Accurate</h1>
-</div>
-</div>
   );
 }
