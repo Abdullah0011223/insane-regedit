@@ -20,9 +20,9 @@ export default function Home() {
           <p>We provide all the necessary tools to increase your device&#39;s and game&#39;s</p>
           <p>performance to the maximum. Try INSANE using our free trial and see yourself.</p>
         </div>
-        <div className="flex justify-center space-x-4 mt-8">
+        <div className="flex justify-center space-x-16 mt-8">
           <Link href="/login">
-            <button className="bg-white py-3 px-6 rounded-full font-medium hover:bg-blue-400 hover:text-white transition duration-300">
+            <button className="bg-white py-3 px-7 rounded-full font-medium hover:bg-blue-400 hover:text-white transition duration-300">
               Login
             </button>
           </Link>
@@ -133,7 +133,7 @@ export default function Home() {
 
           {/* Used By Top Players */}
           <div className="flex items-start space-x-4">
-            <FaBuilding className="text-3xl md:text-5xl text-white bg-blue-500 px-1 rounded-md" />
+            <FaBuilding className="text-3xl md:text-5xl text-white bg-blue-500 rounded-md px-2" />
             <div>
               <h1 className="font-bold text-xl">Used By Top Players</h1>
               <p className="text-gray-500 mt-2">
