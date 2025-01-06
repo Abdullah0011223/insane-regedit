@@ -54,8 +54,11 @@ const plans: Plan[] = [
 
 export default function PricingPage() {
     return (
-        <div className="min-h-screen bg-gray-100 py-12">
-            <h1 className="text-1xl font-semibold text-center text-gray-500 mb-8">Choose a plan that suits your gaming needs</h1>
+        
+        <div className="min-h-screen bg-white  py-12">
+             <h1 className="text-center mt-20 text-blue-700 font-extrabold font-mono text-2xl">OUR PRICING</h1>
+             <h1 className="text-center mt-5 text-black font-extrabold font-mono text-4xl">Choose The Plans That Suits You!</h1>
+            <h1 className="text-1xl font-semibold text-center text-gray-500 mb-8 mt-5">Choose a plan that suits your gaming needs</h1>
             <div className="flex flex-wrap justify-center">
                 {plans.map((plan, index) => (
                     <div

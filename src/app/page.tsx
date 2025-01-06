@@ -5,6 +5,7 @@ import { FaBuilding } from "react-icons/fa6";
 import { IoBagRemove } from "react-icons/io5";
 
 import PricingPage from "./components/pricingcard";
+import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -117,10 +118,9 @@ export default function Home() {
 
         </div>
       </div>
-<h1 className="text-center mt-10 text-blue-700 font-extrabold font-mono text-2xl">OUR PRICING</h1>
-<h1 className="text-center mt-5 text-black font-extrabold font-mono text-4xl">Choose The Plans That Suits You!</h1>
+     
 <PricingPage />
-    </div>
+</div>
   );
 }
 
