@@ -125,7 +125,7 @@ export default function Home() {
             <div>
               <h1 className="font-bold text-xl">Trusted and Accurate</h1>
               <p className="text-gray-500 mt-2">
-                We provide accurate settings for all devices, reducing any types
+                We provide accurate settings for all devices,<br/> reducing any types
                 of bugs.
               </p>
             </div>
@@ -137,7 +137,7 @@ export default function Home() {
             <div>
               <h1 className="font-bold text-xl">Used By Top Players</h1>
               <p className="text-gray-500 mt-2">
-                Many experienced and professional players use our tool to
+                Many experienced and professional players use our tool<br/> to
                 improve their performance.
               </p>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
             <div>
               <h1 className="font-bold text-xl">Various Features</h1>
               <p className="text-gray-500 mt-2">
-                We provide services from optimizing devices to improving in-game
+                We provide services from optimizing devices to improving<br/> in-game
                 performance.
               </p>
             </div>
